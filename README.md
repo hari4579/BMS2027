@@ -362,6 +362,28 @@ The following details should be checked before treating the complete 75-channel 
 
 ---
 
+## Testing and Demonstration
+
+A testing video demonstrating the APARD32690 master controller and its interaction with the STM32-based temperature-monitoring board is included below.
+
+### Single-Board Integration Testing
+
+The current testing setup uses one temperature-monitoring board connected to the APARD32690 master controller through CAN.
+
+The demonstration covers:
+- CAN communication between the STM32 board and APARD32690.
+- Reception of temperature telemetry from 13 NTC channels.
+- Temperature data processing at the master controller.
+- ADBMS6830 cell-voltage acquisition through SPI.
+- Serial-console output for monitoring and debugging.
+
+### Testing Video
+
+**APARD32690 Master Controller – Hardware Testing**
+
+[https://drive.google.com/file/d/1_f34zJ-By_HTeCJ9r7HJWei0OFtLDCeV/view?usp=drive_link](https://drive.google.com/file/d/1_f34zJ-By_HTeCJ9r7HJWei0OFtLDCeV/view?usp=sharing)
+
+*The video demonstrates the current single-board testing configuration. Integration with five temperature-monitoring boards and the complete 75-channel architecture is planned for a later development stage.*
 ## Technologies Used
 
 - **BMS Master:** AD-APARD32690-SL
